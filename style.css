@@ -1,0 +1,74 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.backgrnd{
+padding: 30px;
+text-align: center;
+background-color: black;
+  color: white;
+  font-size: 30px;
+  }
+
+.backgrnd ul{
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.app{
+position: absolute;
+top: 0;
+bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  }
+
+.header{
+  color:red;
+  text-align: center;
+  margin-top: 120px;
+margin-bottom: 0;
+  font-size: 2.6rem;
+}
+
+.component{
+background: aqua;
+  width: 78%;
+  height: 240px;
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 10px;
+  }
+
+.component div{
+  display: flex;
+  align-items: center;
+}
+.component h4{
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-left: 30px; 
+  margin-bottom: 10px;
+}
+
+.component .captn{
+  font-size: 2.4rem; 
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%; 
+  margin-top: 120px;
+}
